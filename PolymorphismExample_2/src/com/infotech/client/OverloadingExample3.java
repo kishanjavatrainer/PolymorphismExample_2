@@ -28,7 +28,7 @@ class Child extends Parent {
 
 public class OverloadingExample3 {
 	public static void main(String args[]) {
-		Child child = new Child(5, 10);
+		Child child = new Child(50, 100);
 		// This call will invoke the child class method
 		child.dispayData("in Child class displayData ");
 		// This call will invoke the parent class method
